@@ -64,8 +64,6 @@ div {
   text-align: center;
   color: white;
   animation: motion 20000ms infinite linear;
-  -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
 }
 
 /* big circles positioning */
