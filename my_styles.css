@@ -10,9 +10,14 @@ p {
 }
 
 h1 {
+  font-size: 50px;
   color: rgb(255, 255, 255);
   margin-left: 20px;
   font-family: "Monospace", sans-serif;
+}
+
+h1:hover {
+  color: rgb(0, 110, 255);
 }
 
 h2 {
@@ -34,6 +39,7 @@ div {
   position: relative;
   text-align: center;
   color: white;
+  box-shadow: 0 0 50px rgb(255, 252, 252);
   animation: motion 20000ms infinite linear;
 
 }
@@ -68,11 +74,11 @@ div {
 
 /* moving circles effect */
 @keyframes motion {
-  0.000%  { left: 600%; top: 9999999%; }
+  0.000%  { left: 750%; top: 0%; }
 
   0.000% { transform:rotate(360deg); }
   
-  100.000%  { left: 600%; top: 9999999%; }
+  100.000%  { left: 750%; top: 0%; }
 }
 
 
