@@ -16,9 +16,11 @@ function mystery_button() {
       circle4.innerHTML = "resources";
     } else {
       x.innerHTML = "yay! exciting ^_^";
-      circle1.innerHTML = "???";
-      circle2.innerHTML = "???";
-      circle3.innerHTML = "???";
-      circle4.innerHTML = "???";
+      circle1.innerHTML = "?????";
+      circle2.innerHTML = "?????";
+      circle3.innerHTML = "?????";
+      circle4.innerHTML = "?????";
     }
   }
+
+
