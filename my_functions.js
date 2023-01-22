@@ -24,3 +24,17 @@ function mystery_button() {
   }
 
 
+
+
+//code inspired from:
+//https://stackoverflow.com/questions/33948464/move-an-image-with-javascript-using-mouse-events
+
+function parallax (e){
+  document.querySelectorAll(".object").forEach(function(move){
+
+  var moving_value = move. getAttribute ("data-value");
+  var a = (e.client * moving_value) / 250;
+  var b = (e.clienty * moving_value) / 250;
+  move.style.transform = "translate(" + a + "px) translate(" + b + "px)";
+  });
+}
