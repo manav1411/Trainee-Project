@@ -1,4 +1,5 @@
 
+//mystery button unhides titles for other pages and similar.
 function mystery_button() {
     var x = document.getElementById("boring_text");
 
