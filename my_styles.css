@@ -34,7 +34,7 @@ div {
   position: relative;
   text-align: center;
   color: white;
-  box-shadow: 0 0 200px black;
+  box-shadow: 0 0 50px black;
 }
 
 /*centering the main circles*/
