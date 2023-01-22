@@ -29,12 +29,13 @@ function mystery_button() {
 //code inspired from:
 //https://stackoverflow.com/questions/33948464/move-an-image-with-javascript-using-mouse-events
 
-function parallax (e){
-  document.querySelectorAll(".object").forEach(function(move){
+document.addEventListener("mousemove", parallax);
+function parallax(event) {
+  this.querySelectorAll(".parallax-wrap span").forEach((shift) => {
+    const position = shift.getAttribute("value");
+    const x = (window.innerWidth - event.pageX * position) / 90;
+    const y = (window.innerHeight - event.pageY * position) / 90;
 
-  var moving_value = move. getAttribute ("data-value");
-  var a = (e.client * moving_value) / 250;
-  var b = (e.clienty * moving_value) / 250;
-  move.style.transform = "translate(" + a + "px) translate(" + b + "px)";
+    shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
   });
 }
