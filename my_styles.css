@@ -28,12 +28,13 @@ div {
 }
 
 
-/* Container holding the image and the text */
+/* main circle, holding the image and the text */
 .main_circle {
   display: inline-block;
   position: relative;
   text-align: center;
   color: white;
+  box-shadow: 0 0 200px black;
 }
 
 /*centering the main circles*/
@@ -59,7 +60,11 @@ div {
   transform: translate(-50%, -50%);
 }
 
-/* parralax effect*/
+
+
+
+
+/* parralax effects*/
 .parallax-wrap {
   position: relative;
   width: 100%;
