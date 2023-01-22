@@ -43,14 +43,14 @@ div {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-140%, -50%);
+  transform: translate(-140%, -75%);
 
 }
 .circles_parent2 {
   position: absolute;
   top: 69%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -75%);
 }
 
 .circles_parent_main {
