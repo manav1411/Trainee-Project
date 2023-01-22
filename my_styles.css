@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(229, 209, 137);
+  }
+  
+  p {
+    color: rgb(6, 6, 137);
+    margin-left: 20px;
+  }
+
+
+/* Container holding the image and the text */
+.main_circle {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
