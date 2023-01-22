@@ -65,7 +65,8 @@ div {
   color: white;
   box-shadow: 0 0 50px rgb(255, 252, 252);
   animation: motion 20000ms infinite linear;
-
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 /* big circles positioning */
