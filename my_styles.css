@@ -98,11 +98,11 @@ div {
 
 /* moving circles effect */
 @keyframes motion {
-  0.000%  { left: 750%; top: 0%; }
+  0.000%  { left:600%; top: 0%; }
 
   0.000% { transform:rotate(360deg); }
   
-  100.000%  { left: 750%; top: 0%; }
+  100.000%  { left: 600%; top: 0%; }
 }
 
 
