@@ -34,28 +34,29 @@ div {
   position: relative;
   text-align: center;
   color: white;
-  box-shadow: 0 0 50px black;
+  animation: motion 20000ms infinite linear;
 
 }
 
-/*centering the main circles*/
+/* big circles positioning */
 .circles_parent1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-140%, -50%);
 
-  animation: motion 10000ms infinite linear;
 }
 .circles_parent2 {
   position: absolute;
   top: 69%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  animation: motion 7000ms infinite linear;
 }
 
+.circles_parent_main {
+  position: absolute;
+}
+/*end of big circles positioning */
   
 /* Centered text1 */
 .centered {
@@ -67,11 +68,11 @@ div {
 
 /* moving circles effect */
 @keyframes motion {
-  0.000%  { left: 30%; top: 70%; }
-  25.000% { left: 70%; top: 70%; }
-  50.000% { left: 70%; top: 30%; }
-  75.000% { left: 30%; top: 30%; }
-  100.0%  { left: 30%; top: 70%; }
+  0.000%  { left: 600%; top: 9999999%; }
+
+  0.000% { transform:rotate(360deg); }
+  
+  100.000%  { left: 600%; top: 9999999%; }
 }
 
 
@@ -86,19 +87,12 @@ div {
   align-items: center;
 }
 
-.parallax-wrap h1 {
-  position: relative;
-  font-size: 100px;
-  color: white;
-  z-index: 2;
-  text-align: center;
-}
-
 .parallax-wrap span {
   position: absolute;
   height: 20px;
   width: 20px;
   border-radius: 100%;
+  box-shadow: 0 0 50px black;
 }
 
 .parallax-wrap span:nth-child(1) {
@@ -106,6 +100,7 @@ div {
   left: 100%;
   background: blue;
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(2) {
@@ -113,24 +108,28 @@ div {
   left: 80%;
   background: yellow;
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .parallax-wrap span:nth-child(3) {
   top: 40%;
   left: 60%;
   background: green;
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .parallax-wrap span:nth-child(4) {
   top: 70%;
   left: 40%;
   background: red;
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .parallax-wrap span:nth-child(5) {
   top: 40%;
   left: 30%;
   background: purple;
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(6) {
@@ -138,6 +137,7 @@ div {
   left: 70%;
   background: rgb(0, 0, 0);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(7) {
@@ -145,24 +145,28 @@ div {
   left: 35%;
   background: rgb(255, 111, 0);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .parallax-wrap span:nth-child(8) {
   top: 80%;
   left: 60%;
   background: rgb(175, 185, 175);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .parallax-wrap span:nth-child(9) {
   top: 70%;
   left: 20%;
   background: rgb(139, 15, 112);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 .parallax-wrap span:nth-child(10) {
   top: 80%;
   left: 30%;
   background: rgb(0, 128, 115);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(11) {
@@ -170,6 +174,7 @@ div {
   left: 90%;
   background: rgb(7, 239, 212);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(12) {
@@ -177,6 +182,7 @@ div {
   left: 95%;
   background: rgb(117, 19, 228);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(13) {
@@ -184,6 +190,7 @@ div {
   left: 85%;
   background: rgb(220, 129, 180);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(14) {
@@ -191,6 +198,7 @@ div {
   left: 83%;
   background: rgb(143, 122, 0);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 .parallax-wrap span:nth-child(15) {
@@ -198,6 +206,7 @@ div {
   left: 75%;
   background: rgb(59, 42, 212);
   z-index: 3;
+  box-shadow: 0 0 50px rgb(255, 255, 255);
 }
 
 /*end of parralax effects */
