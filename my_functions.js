@@ -26,9 +26,8 @@ function mystery_button() {
 
 
 
-//code inspired from:
-//https://stackoverflow.com/questions/33948464/move-an-image-with-javascript-using-mouse-events
-
+//parralax effect code - inspired by:
+//https://www.youtube.com/watch?v=ntg6tbGxP3k
 document.addEventListener("mousemove", parallax);
 function parallax(event) {
   this.querySelectorAll(".parallax-wrap span").forEach((shift) => {
