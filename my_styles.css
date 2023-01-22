@@ -16,28 +16,28 @@ body {
   }
   
 /* Centered text1 */
-.centered {
+.centered1 {
   position: absolute;
   top: 45%;
   left: 45%;
   transform: translate(-50%, -50%);
 }
 /* Centered text2 */
-.centered {
+.centered2 {
   position: absolute;
   top: 50%;
   left: 45%;
   transform: translate(-50%, -50%);
 }
 /* Centered text3 */
-.centered {
+.centered3 {
   position: absolute;
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 /* Centered text4 */
-.centered {
+.centered4 {
   position: absolute;
   top: 50%;
   left: 50%;
