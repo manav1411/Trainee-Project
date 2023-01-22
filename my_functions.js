@@ -10,15 +10,15 @@ function mystery_button() {
 
     if (x.innerHTML === "yay! exciting ^_^") {
       x.innerHTML = "smh - so boring!!";
-      circle1.innerHTML = "???";
-      circle2.innerHTML = "???";
-      circle3.innerHTML = "???";
-      circle4.innerHTML = "???";
-    } else {
-      x.innerHTML = "yay! exciting ^_^";
       circle1.innerHTML = "about me";
       circle2.innerHTML = "definitions";
       circle3.innerHTML = "github";
       circle4.innerHTML = "resources";
+    } else {
+      x.innerHTML = "yay! exciting ^_^";
+      circle1.innerHTML = "???";
+      circle2.innerHTML = "???";
+      circle3.innerHTML = "???";
+      circle4.innerHTML = "???";
     }
   }
