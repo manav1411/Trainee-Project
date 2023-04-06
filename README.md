@@ -1,6 +1,6 @@
 # viewable at: [https://trainee-project.onrender.com](https://trainee-project.onrender.com)
 
-# Trainee-Program-website
+## Trainee-Program-website
 
 this website uses JS, React, HTML, CSS to give information about circles.
 there are some interesting effects the user can play around with, such as hovering over the title.
